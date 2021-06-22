@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.parent{
+  height: 100%;
+  width: 100%;
+  background-color: white;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+html,body {
+  height: 100%;
+}
+#root{
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+display: flex;
+  background-color:#add8e6;
+  height: 250px;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+border-radius: 250px/125px;
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.formCSS{
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.inputStyle{
+margin-bottom: 20px;
+width: 170px;
+height: 35px;
+border-radius: 40px;
+border-color: white;
+border-style: solid;
+outline:none;
+}
+::placeholder{
+  color: lightgrey;
+}
+.buttonCSS{
+width:50%;
+height:40px;
+background-color: white;
+border-radius: 20px;
+border:solid 0.3px lightgrey;
+}
+.cardCSS{
+  display: flex;
+  flex-direction: row;
+  height: 110px;
+  width : 400px;
+  border:solid black 0.5px;
+}
+.parentCardList{
+display: flex;
+flex-direction: row;
+  height: 100%;
+  width: 100%;
+  margin-left: 150px;
+}
+.imgCSS{
+  border-right: solid black 0.5px;
+heigth: 70px;
+width: 110px;
+}
+.itemCSS{
+  margin-top: 5px;
+}
+.borderBottom{
+  border-bottom: solid black 0.5px;
+  width:100%;
+}
+.dimensions{
+  width: 100%;
+}
+.logOut{
+  margin-top: 10px;
+  height:50px;
+  width:200px;
+  margin-left: 100px;
+  background-color: #3498db;
+  color:white;
+  font-size: 100%;
+  font-family: Arial;
 }
