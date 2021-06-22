@@ -1,3 +1,11 @@
+1) This code implements a simple log in page and a list of card that display some data.
+2) To run this code it is assumed that npm has been added to the Path variable of system.
+3) Download project and run the following commands
+4) npm install in order to install the neccesery modules
+5) npm start to run the app.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
